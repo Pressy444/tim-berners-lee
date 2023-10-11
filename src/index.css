@@ -3,6 +3,110 @@
 }
 
 body {
-
-  background-color:bisque;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+nav {
+  background-color: #2413bb;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.logo img {
+  width: 50px; 
+}
+
+
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn1 {
+  
+  
+  border-radius: 10px;
+  background-color: rgb(204, 31, 31);
+}
+
+.hambu  {
+
+size:5px;
+} 
+
+.loupe {
+  
+size:5px;
+
+
+}
+
+.colonne2 {
+
+float: right;
+
+}
+
+
+
+.container img {
+  max-width: 50%; 
+  display: flex;
+  float: right;
+  width: 100%;
+  margin-top: 150px;
+  margin-right: 30px;
+  
+}
+
+h1 {
+ float: top;
+ margin-left: 20px;
+ text-align: right;
+}
+
+p {
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+
+h3 {
+  float: top;
+  margin-left: 20px;
+  text-align: right;
+
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; }
+
+
+.column {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.sousMenu {
+  margin-left: 20px;
+  margin-top:20px;
+}
+
+
