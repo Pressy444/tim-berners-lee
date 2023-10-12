@@ -1,4 +1,5 @@
 ### Une page détaille sur Tim Berners-Lee l'inventeur du HTML.
+## [Le link de la page] (https://pressy444.github.io/tim-berners-lee/)
 
 # React + TypeScript + Vite
 
@@ -14,8 +15,19 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
+# ressources:
+1. librairie Google pour les icones.
+2. les etapes de l exercice Guithub.
 
+# outils: 
+1. html
+2. css
+3. javascripte
+   
+
+   
 ```js
+
    parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
