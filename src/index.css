@@ -1,12 +1,12 @@
 @media (max-width: 600px) {
-  /* Styles pour les écrans de moins de 600 pixels de large */
-}
+  
+
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
+}}
 
 nav {
   background-color: #2413bb;
@@ -17,36 +17,84 @@ nav {
   margin: 0;
 }
 
+
+.britan {
+
+  text-align: left;
+}
+
 .logo img {
   width: 50px; 
 }
 
 
 
-.menu {
+.menu, btn2 {
   list-style: none;
-  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   padding: 0;
   display: flex;
+  padding-inline: 100px;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 
+nav {
+  background-color: #241286;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+
+}
+
+ li {
+  display: inline;
+  margin: 0 20px;
+}
 
 .menu a {
   text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu {
+    text-align: center;
+    display: block;
+  }
+
+   .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+
+
+.btn1 {
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: rgb(204, 31, 31);
   color: white;
 }
 
-.btn1 {
-  
-  
-  border-radius: 10px;
-  background-color: rgb(204, 31, 31);
-}
 
 .hambu  {
-
+align-items: 7px;
 size:5px;
+justify-content: space-between;
 } 
 
 .loupe {
@@ -74,24 +122,34 @@ float: right;
   
 }
 
-h1 {
- float: top;
- margin-left: 20px;
- text-align: right;
+.haut {
+
+text-align: left;
+margin-left: 20px;
+
 }
 
-p {
+.bas {
   margin-top: 50px;
   margin-left: 20px;
-  
+  text-align: left;
+  line-height: 30px;
+  font-size: 22px;
 }
 
 h3 {
   float: top;
-  margin-left: 20px;
-  text-align: right;
+  margin-left: 25px;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+ font-size: 30px ;
+}
 
-
+h2 {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: left;
+font-size: 50px;
+margin-left: 20px;
 }
 
 .container {
@@ -102,7 +160,8 @@ h3 {
 
 .column {
   padding: 10px;
-  border: 1px solid #ccc;
+  
+
 }
 .sousMenu {
   margin-left: 20px;
@@ -110,3 +169,72 @@ h3 {
 }
 
 
+figure {
+  align-items: center;
+  border: 1px solid #4d4747;
+  display: flex;
+  flex-flow:column;
+  text-align: center;
+  padding: 10px;
+ 
+
+  
+}
+
+figcaption {
+  align-items: center;
+ 
+  padding: 20px 40px 40px 40px;
+  text-align: left;
+  display:block;
+  margin: auto;
+ 
+}
+
+.sousTitre {
+
+text-align: right;
+
+}
+
+.btnMedia {
+display: inline-block;
+text-align: center;
+background-color: rgb(197, 197, 238);
+border-radius: 8px;
+margin-left: 150px;
+font-size: 18px;
+padding: 10px 20px 20px 20px;
+color: rgb(44, 57, 245);
+margin-top: 100px;
+}
+
+
+.btn3 {
+  display: inline-block;
+  text-align: center;
+  place-items: center;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+.sous {
+  background-color: #FED7AA;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 5px 10px;
+  display:inline-block;
+  position: flex;     
+  margin-left: 20px;
+  margin-top: 100px;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+  position: flex;
+  justify-content: center;
+}
+
+.sous a {
+  text-decoration: none;
+  color: black;
+}
