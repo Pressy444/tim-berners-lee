@@ -15,6 +15,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  box-shadow: 6px 6px 4px;
 }
 
 
@@ -105,8 +106,8 @@ size:5px;
 }
 
 .colonne2 {
-
-float: right;
+display: flex;
+float: inline-end;
 
 }
 
@@ -158,8 +159,9 @@ margin-left: 20px;
   gap: 10px; }
 
 
-.column {
+.colonne {
   padding: 10px;
+  text-align: justify;
   
 
 }
@@ -183,7 +185,6 @@ figure {
 
 figcaption {
   align-items: center;
- 
   padding: 20px 40px 40px 40px;
   text-align: left;
   display:block;
@@ -238,3 +239,11 @@ margin-top: 100px;
   text-decoration: none;
   color: black;
 }
+
+aside {
+  border: black;
+  float: inline-start;
+  position: flex;
+  box-shadow: 40px 40px 40px 40px;
+}
+ 
