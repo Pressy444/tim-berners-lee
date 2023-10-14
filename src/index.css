@@ -244,6 +244,6 @@ aside {
   border: black;
   float: inline-start;
   position: flex;
-  box-shadow: 40px 40px 40px 40px;
+  box-shadow: 5px 5px 10px;
 }
  
